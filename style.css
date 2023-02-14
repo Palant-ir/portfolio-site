@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: thistle;
+  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter,
+    monospace;
+  font-size: 18px;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+.avatar {
+  width: 20%;
+  border-radius: 60%;
+  margin: 0;
+}
+
+.container {
+  background-color: aquamarine;
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.container-avatar {
+    background-color:aliceblue;
+  float: left;
+  padding-bottom: 0;
+}
+
+.container-intro {
+    background-color: bisque;
+  float: right;
+}
+
+.about {
+    clear:both
+}
