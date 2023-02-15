@@ -1,40 +1,55 @@
 body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #2C4770;
   margin: 0;
-  background-color: thistle;
-  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter,
-    monospace;
-  font-size: 18px;
 }
 
-img {
-    padding: 0;
-    margin: 0;
-}
-
-.avatar {
-  width: 20%;
-  border-radius: 60%;
-  margin: 0;
+.top-nav {
+  height: 100px;
+  background-color: #051938;
+  margin-bottom: 20px;
 }
 
 .container {
-  background-color: aquamarine;
-  width: 40%;
+  background-color: #051938;
+  width: 700px;
+  height: 900px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding: 20px 100px;
 }
 
-.container-avatar {
-    background-color:aliceblue;
-  float: left;
-  padding-bottom: 0;
-}
-
-.container-intro {
-    background-color: bisque;
-  float: right;
+.intro {
+  background-color: #4D658D;
+  width: 80%;
+  height: 150px;
+  margin-bottom: 20px;
+  margin-left:  auto;
+  margin-right: auto;
+  
 }
 
 .about {
-    clear:both
+  background-color: #4D658D;
+  width: 80%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+} 
+
+.experience {
+  background-color: #4D658D;
+  width: 80%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+h1, h2 {
+  margin: 0;
+  text-align: center;
+  text-transform: lowercase;
 }
