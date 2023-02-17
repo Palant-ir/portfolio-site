@@ -1,55 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
   background-color: #2C4770;
-  margin: 0;
 }
 
 .top-nav {
-  height: 100px;
+  height: 70px;
   background-color: #051938;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .container {
   background-color: #051938;
-  width: 700px;
-  height: 900px;
+  width: 60%;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 20px 100px;
 }
 
-.intro {
-  background-color: #4D658D;
-  width: 80%;
-  height: 150px;
-  margin-bottom: 20px;
-  margin-left:  auto;
-  margin-right: auto;
-  
+main {
+  text-align: center;
+
 }
 
-.about {
+.intro, .about {
   background-color: #4D658D;
   width: 80%;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-
-} 
+  margin:0 auto 20px auto;  
+}
 
 .experience {
   background-color: #4D658D;
   width: 80%;
-  height: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  margin:0 auto;
 }
 
 
 
-h1, h2 {
-  margin: 0;
-  text-align: center;
+h2 {
   text-transform: lowercase;
+  display: inline-block;
 }
