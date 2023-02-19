@@ -1,6 +1,8 @@
+/* Global */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -8,41 +10,55 @@ body {
   background-color: #2C4770;
 }
 
+
+/* Top Navigation */
 .top-nav {
-  height: 70px;
   background-color: #051938;
-  margin-bottom: 20px;
+  font-size: 2rem;
   text-align: center;
+  padding: 0.5em;
 }
 
-.container {
+
+
+
+/* Body Content */
+.content {
   background-color: #051938;
   width: 60%;
-  min-height: 100vh;
-  margin: 0 auto;
-  padding: 20px 100px;
-}
-
-main {
+  /* min-height: 100vh; */
+  margin: 2rem auto;
+  padding: 2rem 1rem;
   text-align: center;
-
 }
 
-.intro, .about {
+.intro {
   background-color: #4D658D;
   width: 80%;
-  margin:0 auto 20px auto;  
+  margin:0 auto 2.5rem auto;  
+  padding: 1rem 0.5rem;
 }
 
-.experience {
-  background-color: #4D658D;
-  width: 80%;
-  margin:0 auto;
+.profile-image {
+  background-color: gold;
+  border: 2px solid black;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5rem;
+  display: inline-block;
 }
 
 
+.name {
+  font-size: 1.5rem;
+}
 
 h2 {
   text-transform: lowercase;
   display: inline-block;
+  
+}
+
+footer {
+  border: 2px dashed green;
 }
